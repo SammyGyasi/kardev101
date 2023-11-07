@@ -100,6 +100,20 @@
     color: var(--primary);
 }
 
+
+
+/* Custom CSS to change button text and inner icon color to white */
+.navbar-toggler {
+    color: white  !important; /* Change the button text color to white */ 
+}
+
+.navbar-toggler .navbar-toggler-icon {
+    color: white  !important; /* Change the inner icon color to white */
+}
+
+
+
+
 .navbar .dropdown-toggle::after {
     border: none;
     content: "\f107";
@@ -107,6 +121,7 @@
     font-weight: 900;
     vertical-align: middle;
     margin-left: 8px;
+    color:#F5F5F5;
 }
 
 @media (max-width: 991.98px) {
