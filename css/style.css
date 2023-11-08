@@ -129,12 +129,12 @@
 /* Custom CSS to change button text and inner icon color to white */
 
 .navbar-toggler {
-    color: white !important; /* Change the button text color to black */
+    color: #D9B160 !important; /* Change the button text color to black */
 }
 
 .navbar-toggler-icon {
     background-color: #D9B160 !important; /* Change the color of the bars within the hamburger icon to black */
-    border: none !important; /* Remove the border around the icon */
+    color: #D9B160;
 }
 
 
@@ -299,6 +299,12 @@
     background-size: cover;
 }
 
+.page-header-registration {
+    background: linear-gradient(rgba(22, 22, 22, .1), rgba(22, 22, 22, .1)), url(../img/Registration-pageheader3.png) center center no-repeat;
+    background-size: cover;
+}
+
+
 .breadcrumb-item + .breadcrumb-item::before {
     color: var(--light);
 }
@@ -326,6 +332,12 @@
         padding-right: calc(((100% - 1320px) / 2) + .75rem);
     }
 }
+
+.about-text {
+    text-align: justify;
+}
+
+
 
 
 /*** Service ***/
