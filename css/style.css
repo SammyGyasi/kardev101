@@ -127,13 +127,14 @@
 
 
 /* Custom CSS to change button text and inner icon color to white */
+
 .navbar-toggler {
-    color: white  !important; /* Change the button text color to white */ 
+    color: white !important; /* Change the button text color to black */
 }
 
-.navbar-toggler .navbar-toggler-icon {/* Change the inner icon color to white */
-    color: white  !important; 
-    background-color: white;
+.navbar-toggler-icon {
+    background-color: #D9B160 !important; /* Change the color of the bars within the hamburger icon to black */
+    border: none !important; /* Remove the border around the icon */
 }
 
 
