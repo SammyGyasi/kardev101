@@ -107,8 +107,9 @@
     color: white  !important; /* Change the button text color to white */ 
 }
 
-.navbar-toggler .navbar-toggler-icon {
-    color: white  !important; /* Change the inner icon color to white */
+.navbar-toggler .navbar-toggler-icon {/* Change the inner icon color to white */
+    color: white  !important; 
+    background-color: white;
 }
 
 
