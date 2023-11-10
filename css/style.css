@@ -573,6 +573,27 @@
 }
 
 
+
+
+        
+/*** Highlight Start ***/
+.highlight-item {
+    border: 1px solid var(--bs-primary);
+    padding: 20px 20px;
+}
+
+.highlight-carousel .owl-item img {
+    width: 100px;
+    height: 100px;
+}
+
+.highlight-carousel.owl-rtl .highlight-item {
+    direction: ltr !important;
+}
+/*** Highlight End ***/
+
+
+
 /*** Contact ***/
 @media (min-width: 992px) {
     .container.contact {
