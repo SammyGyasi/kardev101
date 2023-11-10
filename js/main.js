@@ -79,7 +79,8 @@ $(".highlight-carousel-1").owlCarousel({
     margin: 25,
     autoplay: true,
     slideTransition: 'linear',
-    autoplayTimeout: 7000, // 7 seconds
+    autoplayTimeout: 5000, // 7 seconds
+    autoplaySpeed: 2000,  // Slow
     autoplayHoverPause: false,
     responsive: {
         0: {
@@ -104,7 +105,8 @@ $(".highlight-carousel-2").owlCarousel({
     margin: 25,
     autoplay: true,
     slideTransition: 'linear',
-    autoplayTimeout: 7000, // 7 seconds
+    autoplayTimeout: 5000, // 7 seconds
+    autoplaySpeed: 2000,  // Slow
     autoplayHoverPause: false,
     responsive: {
         0: {
