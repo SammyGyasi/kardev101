@@ -72,60 +72,55 @@
         items: 1,
         dotsData: true,
     });
-
-    // Highlight carousel
-    $(".highlight-carousel-1").owlCarousel({
-        loop: true,
-        dots: false,
-        margin: 25,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 0,
-        autoplaySpeed: 10000,
-        autoplayHoverPause: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            575: {
-                items: 1
-            },
-            767: {
-                items: 2
-            },
-            991: {
-                items: 3
-            }
+  // Highlight carousel
+$(".highlight-carousel-1").owlCarousel({
+    loop: true,
+    dots: false,
+    margin: 25,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 7000, // 7 seconds
+    autoplayHoverPause: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        575: {
+            items: 1
+        },
+        767: {
+            items: 2
+        },
+        991: {
+            items: 3
         }
-    });
+    }
+});
 
-    $(".highlight-carousel-2").owlCarousel({
-        loop: true,
-        dots: false,
-        rtl: true,
-        margin: 25,
-        autoplay: true,
-        slideTransition: 'linear',
-        autoplayTimeout: 0,
-        autoplaySpeed: 10000,
-        autoplayHoverPause: false,
-        responsive: {
-            0: {
-                items: 1
-            },
-            575: {
-                items: 1
-            },
-            767: {
-                items: 2
-            },
-            991: {
-                items: 3
-            }
+$(".highlight-carousel-2").owlCarousel({
+    loop: true,
+    dots: false,
+    rtl: true,
+    margin: 25,
+    autoplay: true,
+    slideTransition: 'linear',
+    autoplayTimeout: 7000, // 7 seconds
+    autoplayHoverPause: false,
+    responsive: {
+        0: {
+            items: 1
+        },
+        575: {
+            items: 1
+        },
+        767: {
+            items: 2
+        },
+        991: {
+            items: 3
         }
-    });
-
-
+    }
+});
 
     // Portfolio isotope and filter
     var portfolioIsotope = $('.portfolio-container').isotope({
