@@ -86,19 +86,20 @@
             <!-- <h2 class="m-0 text-primary">AfricaMed</h2> -->
             <img src="img/logo_white.gif" alt="" width="90" height="80">
         </a>
-        <button type="button" class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
-            <span class="navbar-toggler-icon"></span>
+        <button type="button" class="navbar-toggler text-light" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+            <span class="navbar-toggler-icon text-dark"></span>
         </button>
+        
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="programmes.html" class="nav-item nav-link">Programmes</a>            
+                <a href="programmes.html" class="nav-item nav-link">Programme</a>            
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Partners</a>
-                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="partners.html" class="dropdown-item">Become Partner</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">           
                         <a href="partners.html" class="dropdown-item">Our Partners</a>
+                        <a href="become_partner.html" class="dropdown-item">Become Partner</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -122,6 +123,7 @@
         </div>
     </nav>
     <!-- Navbar End -->
+
 
 
 
@@ -300,21 +302,31 @@
     <!-- Footer End -->
 
 
-  <!-- Copyright Start -->
-  <div class="container-fluid py-4" style="background: #000000;">
-    <div class="container">
-        <div class="row">
-            <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                &copy; <a class="border-bottom" href="#">AfricaMed.Com</a>, All Right Reserved.
-            </div>
-            <div class="col-md-6 text-center text-md-end">
-               
-                Designed By <a class="border-bottom" href="https://www.linkedin.com/in/samuel-k-gyasi/">Sam</a><br>For <a class="border-bottom" href="https://www.linkedin.com/in/samuel-k-gyasi/" >Kardev</a>
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
+                    &copy; <a class="border-bottom text-primary" href="#">AfricaMed.Com</a> <span id="currentYear"></span> , All Rights Reserved.
+                  </div>
+                  
+                <div class="col-md-6 text-center text-md-end">
+                   
+                    Designed By <a class="border-bottom" href="https://www.linkedin.com/company/kardev/about/">Kardev</a><br>
+                </div>
             </div>
         </div>
     </div>
-</div>
-<!-- Copyright End -->
+
+    <script>
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+        
+        // Find the element with the id "currentYear" and set its text content
+        document.getElementById("currentYear").textContent = currentYear;
+      </script>
+      
+    <!-- Copyright End -->
 
 
     <!-- Back to Top -->

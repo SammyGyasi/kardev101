@@ -97,9 +97,9 @@
                 <a href="programmes.html" class="nav-item nav-link">Programme</a>            
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Partners</a>
-                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
-                        <a href="partners.html" class="dropdown-item">Become Partner</a>
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">           
                         <a href="partners.html" class="dropdown-item">Our Partners</a>
+                        <a href="become_partner.html" class="dropdown-item">Become Partner</a>
                     </div>
                 </div>
                 <div class="nav-item dropdown">
@@ -436,7 +436,7 @@
                                 </div>
                             </div>
                         </div>
-                        <a href="" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
+                        <a href="about.html" class="btn btn-primary rounded-pill py-3 px-5">Explore More</a>
                     </div>
                 </div>
             </div>
@@ -852,21 +852,34 @@
     <!-- Footer End -->
 
 
+   
+
     <!-- Copyright Start -->
     <div class="container-fluid py-4" style="background: #000000;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom" href="#">AfricaMed.Com</a>, All Right Reserved.
-                </div>
+                    &copy; <a class="border-bottom text-primary" href="#">AfricaMed.Com</a> <span id="currentYear"></span> , All Rights Reserved.
+                  </div>
+                  
                 <div class="col-md-6 text-center text-md-end">
                    
-                    Designed By <a class="border-bottom" href="https://www.linkedin.com/in/samuel-k-gyasi/">Sam</a><br>For <a class="border-bottom" href="https://www.linkedin.com/in/samuel-k-gyasi/" >Kardev</a>
+                    Designed By <a class="border-bottom" href="https://www.linkedin.com/company/kardev/about/">Kardev</a>
                 </div>
             </div>
         </div>
     </div>
+
+    <script>
+        // Get the current year
+        var currentYear = new Date().getFullYear();
+        
+        // Find the element with the id "currentYear" and set its text content
+        document.getElementById("currentYear").textContent = currentYear;
+      </script>
+      
     <!-- Copyright End -->
+
 
 
     <!-- Back to Top -->
