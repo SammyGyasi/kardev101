@@ -572,6 +572,11 @@
     opacity: 1;
 }
 
+.testimonial-carousel .testimonial-item img {
+    width: 600px !important;
+}
+
+
 
 
 
