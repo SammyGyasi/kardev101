@@ -72,6 +72,7 @@
         items: 1,
         dotsData: true,
     });
+    
   // Highlight carousel
 $(".highlight-carousel-1").owlCarousel({
     loop: true,
