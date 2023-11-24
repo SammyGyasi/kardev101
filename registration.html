@@ -14,7 +14,9 @@
     <!-- Google Web Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap" rel="stylesheet"> 
+    <link
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500&family=Roboto:wght@500;700;900&display=swap"
+        rel="stylesheet">
 
     <!-- Icon Font Stylesheet -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.10.0/css/all.min.css" rel="stylesheet">
@@ -36,7 +38,8 @@
 
 <body>
     <!-- Spinner Start -->
-    <div id="spinner" class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
+    <div id="spinner"
+        class="show bg-white position-fixed translate-middle w-100 vh-100 top-50 start-50 d-flex align-items-center justify-content-center">
         <div class="spinner-border text-primary" style="width: 3rem; height: 3rem;" role="status">
             <span class="sr-only">Loading...</span>
         </div>
@@ -86,18 +89,19 @@
             <!-- <h2 class="m-0 text-primary">AfricaMed</h2> -->
             <img src="img/logo_white.gif" alt="" width="90" height="80">
         </a>
-        <button type="button" class="navbar-toggler text-light" data-bs-toggle="collapse" data-bs-target="#navbarCollapse">
+        <button type="button" class="navbar-toggler text-light" data-bs-toggle="collapse"
+            data-bs-target="#navbarCollapse">
             <span class="navbar-toggler-icon text-dark"></span>
         </button>
-        
+
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav ms-auto py-4 py-lg-0">
                 <a href="index.html" class="nav-item nav-link active">Home</a>
                 <a href="about.html" class="nav-item nav-link">About Us</a>
-                <a href="programmes.html" class="nav-item nav-link">Program</a>            
+                <a href="programmes.html" class="nav-item nav-link">Program</a>
                 <div class="nav-item dropdown">
                     <a href="#" class="nav-link dropdown-toggle" data-bs-toggle="dropdown">Partners</a>
-                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">           
+                    <div class="dropdown-menu rounded-0 rounded-bottom m-0">
                         <a href="partners.html" class="dropdown-item">Our Partners</a>
                         <a href="become_partner.html" class="dropdown-item">Become Partner</a>
                     </div>
@@ -115,10 +119,14 @@
                 <a href="contact.html" class="nav-item nav-link">Contact</a>
             </div>
             <div class="h-100 d-lg-inline-flex align-items-center d-none">
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-twitter"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i class="fab fa-linkedin-in"></i></a>
-                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i class="fab fa-instagram"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-facebook-f"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-twitter"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-2" href=""><i
+                        class="fab fa-linkedin-in"></i></a>
+                <a class="btn btn-square rounded-circle bg-light text-primary me-0" href=""><i
+                        class="fab fa-instagram"></i></a>
             </div>
         </div>
     </nav>
@@ -148,69 +156,76 @@
         leaders, representatives from international organizations focused on economic development,
         private sector companies, and numerous regional stakeholders, the AfricaMed Business
         Forum offers an exceptional opportunity to promote investment and cooperation.
-   <br>
-   <strong>Fill out the following form to secure your place now!</strong>
+        <br>
+        <strong>Fill out the following form to secure your place now!</strong>
 
 
     </p>
 
     <div class="container text-dark">
         <div class="row justify-content-center">
-          <div class="col-md-8">
+            <div class="col-md-8">
                 <form id="myForm" action="process_form.php" method="POST">
-                   
-              <!-- Form fields go here -->
-              <div class="mb-3">
-                <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="email" class="form-label">Email</label>
-                <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
-                <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-              </div>
-              <div class="mb-3">
-                <label for="country" class="form-label">Country</label>
-                <input type="text" class="form-control" id="country" aria-describedby="countryHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="passportNumber" class="form-label">Passport Number</label>
-                <input type="text" class="form-control" id="passportNumber" aria-describedby="passportNumberHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="jobTitle" class="form-label">Job Title</label>
-                <input type="text" class="form-control" id="jobTitle" aria-describedby="jobTitleHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="organization" class="form-label">Entity/Organisation</label>
-                <input type="text" class="form-control" id="organization" aria-describedby="organizationHelp" required>
-              </div>
-              <div class="mb-3">
-                <label for="organizationCountry" class="form-label">Which Country is your organisation based in</label>
-                <input type="text" class="form-control" id="organizationCountry" aria-describedby="organizationCountryHelp" required>
-              </div>
-              <div class="mb-3 form-check">
-                <input type="checkbox" class="form-check-input" id="termsAndConditions" required>
-                <label class="form-check-label" for="termsAndConditions"> I have read and agree to the <a href="#" class="text-primary"> <u>Terms and Conditions</u> </a>  </label>
-              </div>
-              <button type="submit" class="btn btn-primary col-12">Submit</button>
-            </form>
-          </div>
+
+                    <!-- Form fields go here -->
+                    <div class="mb-3">
+                        <label for="firstName" class="form-label">First Name</label>
+                        <input type="text" class="form-control" id="firstName" aria-describedby="firstNameHelp"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="lastName" class="form-label">Last Name</label>
+                        <input type="text" class="form-control" id="lastName" aria-describedby="lastNameHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="phoneNumber" class="form-label">Phone Number</label>
+                        <input type="tel" class="form-control" id="phoneNumber" aria-describedby="phoneNumberHelp"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="email" aria-describedby="emailHelp" required>
+                        <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                    </div>
+                    <div class="mb-3">
+                        <label for="country" class="form-label">Country</label>
+                        <input type="text" class="form-control" id="country" aria-describedby="countryHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="passportNumber" class="form-label">Passport Number</label>
+                        <input type="text" class="form-control" id="passportNumber"
+                            aria-describedby="passportNumberHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="jobTitle" class="form-label">Job Title</label>
+                        <input type="text" class="form-control" id="jobTitle" aria-describedby="jobTitleHelp" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="organization" class="form-label">Entity/Organisation</label>
+                        <input type="text" class="form-control" id="organization" aria-describedby="organizationHelp"
+                            required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="organizationCountry" class="form-label">Which Country is your organisation based
+                            in</label>
+                        <input type="text" class="form-control" id="organizationCountry"
+                            aria-describedby="organizationCountryHelp" required>
+                    </div>
+                    <div class="mb-3 form-check">
+                        <input type="checkbox" class="form-check-input" id="termsAndConditions" required>
+                        <label class="form-check-label" for="termsAndConditions"> I have read and agree to the <a
+                                href="#" class="text-primary"> <u>Terms and Conditions</u> </a> </label>
+                    </div>
+                    <button type="submit" class="btn btn-primary col-12">Submit</button>
+                </form>
+            </div>
         </div>
-      </div>
-      
-    
-       
-    
-      
+    </div>
+
+
+
+
+
 
     <!-- Footer Start -->
     <div class="container-fluid bg-dark text-secondary footer mt-5 py-5 wow fadeIn" data-wow-delay="0.1s">
@@ -222,10 +237,14 @@
                     <p class="mb-2"><i class="fa fa-phone-alt me-3"></i>+212 664-143135</p>
                     <p class="mb-2"><i class="fa fa-envelope me-3"></i>Contact@africamedforum.com</p>
                     <div class="d-flex pt-2">
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-twitter"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-facebook-f"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-youtube"></i></a>
-                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i class="fab fa-linkedin-in"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-twitter"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-facebook-f"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-youtube"></i></a>
+                        <a class="btn btn-square btn-outline-secondary rounded-circle me-2" href=""><i
+                                class="fab fa-linkedin-in"></i></a>
                     </div>
                 </div>
                 <div class="col-lg-3 col-md-6">
@@ -245,8 +264,10 @@
                     <h5 class="text-light mb-4">Newsletter</h5>
                     <p>Subscribe to our weekly newsletter</p>
                     <div class="position-relative w-100">
-                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text" placeholder="Your email">
-                        <button type="button" class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
+                        <input class="form-control bg-transparent border-secondary w-100 py-3 ps-4 pe-5" type="text"
+                            placeholder="Your email">
+                        <button type="button"
+                            class="btn btn-primary py-2 position-absolute top-0 end-0 mt-2 me-2">SignUp</button>
                     </div>
                 </div>
             </div>
@@ -254,33 +275,35 @@
     </div>
     <!-- Footer End -->
 
-     <!-- Copyright Start -->
-     <div class="container-fluid py-4" style="background: #000000;">
+    <!-- Copyright Start -->
+    <div class="container-fluid py-4" style="background: #000000;">
         <div class="container">
             <div class="row">
                 <div class="col-md-6 text-center text-md-start mb-3 mb-md-0">
-                    &copy; <a class="border-bottom text-primary" href="#">AfricaMed.Com</a> <span id="currentYear"></span> , All Rights Reserved.
-                  </div>
-                  
+                    &copy; <a class="border-bottom text-primary" href="#">AfricaMed.Com</a> <span
+                        id="currentYear"></span> , All Rights Reserved.
+                </div>
+
                 <div class="col-md-6 text-center text-md-end">
-                   
-                    Founder: <img src="/img/logo1kardev2 (1).png" alt=""width="54" height="30" >
+
+                    Founder: <img src="/img/logo1kardev2 (1).png" alt="" width="54" height="30">
                 </div>
             </div>
         </div>
     </div>
-  
+
     <script>
         // Get the current year
         var currentYear = new Date().getFullYear();
-        
+
         // Find the element with the id "currentYear" and set its text content
         document.getElementById("currentYear").textContent = currentYear;
-      </script>
-      
+    </script>
+
     <!-- Copyright End -->
     <!-- Back to Top -->
-    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i class="bi bi-arrow-up"></i></a>
+    <a href="#" class="btn btn-lg btn-primary btn-lg-square rounded-circle back-to-top"><i
+            class="bi bi-arrow-up"></i></a>
 
 
     <!-- JavaScript Libraries -->
