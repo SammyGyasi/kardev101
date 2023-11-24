@@ -14,7 +14,9 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $to = "samuel.creatiftech@gmail.com.com"; // Replace with your email address
     $subject = "New Form Submission";
 
-    $message = "First Name: $firstName\n";
+    $message = "hello I am $firstName from $country and I would like to register for 
+    the conference and below are my details\n";
+    $message .= "First Name: $firstName\n";
     $message .= "Last Name: $lastName\n";
     $message .= "Phone Number: $phoneNumber\n";
     $message .= "Email: $email\n";
